@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Perfil - Louka Gourmet</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="perfil-container">
+      <h2>Login</h2>
+      <form class="perfil-form" action="/action_page.php">
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" />
+
+        <label for="senha">Senha:</label>
+        <div class="input-senha">
+          <input type="password" id="senha" name="senha" />
+          <span class="toggle-senha" onclick="mostrarSenha()">👁️</span>
+        </div>
+
+        <input type="submit" value="Entrar" />
+        <p>
+          Não tem conta?
+          <a href="cadastro.html">Cadastre-se</a>
+        </p>
+      </form>
+    </div>
+
+    <script>
+      function mostrarSenha() {
+        const input = document.getElementById("senha");
+        if (input.type === "password") {
+          input.type = "text";
+        } else {
+          input.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
