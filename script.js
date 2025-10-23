@@ -22,3 +22,23 @@ document.addEventListener("DOMContentLoaded", () => {
     indicator.style.opacity = "0";
   });
 });
+
+//oi
+
+document.addEventListener("DOMContentLoaded", () => {
+  const formReceita = document.getElementById("form-receita");
+
+  if (formReceita) {
+    formReceita.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const titulo = document.getElementById("titulo").value;
+      if (titulo.length < 5) {
+        alert("O título da receita precisa ter pelo menos 5 caracteres.");
+        return;
+      }
+
+      console.log("Formulário válido, pronto para enviar.");
+    });
+  }
+});
