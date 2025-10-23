@@ -208,3 +208,332 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-container h1 {
+  font-family: "Pacifico", cursive;
+  color: #7c26d3;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #3e0c70;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-button {
+  background-color: #ff62c0;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #3e0c70;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #ff85d1;
+}
+
+.form-container p {
+  margin-top: 20px;
+  color: #666;
+}
+
+.form-container a {
+  color: #7c26d3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.recipe-detail-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail-container img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.recipe-detail-container h1 {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.recipe-detail-container .description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.recipe-detail-container h2 {
+  font-family: "Pacifico", cursive;
+  color: #7c26d3;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #e1c4ff;
+  padding-bottom: 5px;
+}
+
+.recipe-detail-container ul,
+.recipe-detail-container ol {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.perfil-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.perfil-container h2 {
+  font-family: "Pacifico", cursive;
+  color: #7c26d3;
+  margin-bottom: 25px;
+}
+
+.perfil-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #3e0c70;
+}
+
+.perfil-form input[type="text"],
+.perfil-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.input-senha {
+  position: relative;
+  width: 100%;
+}
+
+.input-senha input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.toggle-senha {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #7c26d3;
+  user-select: none;
+}
+
+.perfil-form input[type="submit"] {
+  background-color: #ff62c0;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #3e0c70;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.perfil-form input[type="submit"]:hover {
+  background-color: #ff85d1;
+}
+
+.perfil-container p {
+  margin-top: 15px;
+  color: #666;
+}
+
+.perfil-container a {
+  color: #7c26d3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.perfil-container a:hover {
+  text-decoration: underline;
+}
+
+.cadastro-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cadastro-container h2 {
+  font-family: "Pacifico", cursive;
+  color: #7c26d3;
+  margin-bottom: 25px;
+}
+
+.cadastro-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #3e0c70;
+}
+
+.cadastro-form input[type="text"],
+.cadastro-form input[type="email"],
+.cadastro-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.input-senha {
+  position: relative;
+  width: 100%;
+}
+
+.input-senha input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.toggle-senha {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #7c26d3;
+  user-select: none;
+}
+
+.cadastro-form input[type="submit"] {
+  background-color: #ff62c0;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #3e0c70;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cadastro-form input[type="submit"]:hover {
+  background-color: #ff85d1;
+}
+
+.cadastro-container p {
+  margin-top: 15px;
+  color: #666;
+}
+
+.cadastro-container a {
+  color: #7c26d3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cadastro-container a:hover {
+  text-decoration: underline;
+}
+
+/* Seu código existente para Tags */
+.tag {
+  padding: 6px 12px;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.tag.bolos {
+  background-color: #ff9f43; /* Cor dos Bolos (Laranja) */
+}
+
+.tag.sobremesas {
+  background-color: #a333e0; /* Cor das Sobremesas (Roxo) */
+}
+
+/* NOVAS CLASSES PARA AS NOVAS CATEGORIAS */
+
+.tag.gelados {
+  background-color: #43b3ff; /* Cor dos Gelados (Azul) - Exemplo */
+}
+
+.tag.massas {
+  background-color: #62c040; /* Cor das Massas/Doces (Verde) - Exemplo */
+}
+
+.tag.simples {
+  background-color: #ff62c0; /* Cor do botão de busca (Rosa Choque) */
+}
